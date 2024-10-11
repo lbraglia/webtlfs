@@ -17,7 +17,7 @@ if xlsx is not None:
         f.write(xlsx.getbuffer())
     tlf = TLF()
     tlf.from_xlsx(strucfile)
-    tlf.create(outfile)
+    tlf.to_docx(outfile)
     with open(outfile, "rb") as f:
         btn = st.download_button(
             label = "Download TLF",
