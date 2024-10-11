@@ -22,7 +22,7 @@ if xlsx is not None:
         btn = st.download_button(
             label = "Download TLF",
             data = f,
-            file_name = "tlf.xlsx")
+            file_name = "tlf.docx")
     
 # Include README
 with open('frontpage.md', 'r') as fp:
