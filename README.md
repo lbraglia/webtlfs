@@ -1,7 +1,7 @@
-# webxlcrf
+# webtlfs
 
-Basically [xlcrf](https://pypi.org/project/xlcrf/), but repacked as an
+Basically [tlfs](https://pypi.org/project/tlfs/), but repacked as an
 online streamlit service.
 
-The app is available [here](https://share.streamlit.io/lbraglia/webxlcrf/main).
+The app is available [here](https://webtlfs.streamlit.app).
 
