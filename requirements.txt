@@ -1,2 +1,2 @@
-tlfs==0.0.1
+tlfs==0.0.2
 python-docx==1.1.2
