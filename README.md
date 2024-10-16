@@ -4,6 +4,6 @@ Basically it's [tlfs](https://pypi.org/project/tlfs/) (development repo [here](h
 an online streamlit service.
 
 The live app is [here](https://webtlfs.streamlit.app); the
-development repository is [here](https://github.com/lbraglia/webtlfs)
+development repository is [here](https://github.com/lbraglia/webtlfs).
 
 
