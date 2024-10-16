@@ -9,7 +9,7 @@ xlsx = st.file_uploader(label = "Upload the structure file here, then 'Download 
 
 if xlsx is not None:
     struc = tempfile.NamedTemporaryFile(suffix = '.xlsx')
-    out = tempfile.NamedTemporaryFile(suffix = '.xlsx')
+    out = tempfile.NamedTemporaryFile(suffix = '.docx')
     strucfile = struc.name
     outfile = out.name
     # salvo per comodità il file in un file
