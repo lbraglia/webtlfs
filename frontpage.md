@@ -3,12 +3,18 @@
 ## Info
 
 In the box above you can upload your TLF structure (an `.xlsx`
-specifying the structure of desidered TLF shells).
+specifying the structure of desidered TLF shells) and then click on
+"Download TLF" to save the corresponding/produced `.docx` on your pc.
 
-Some examples:
-[example1](https://github.com/lbraglia/tlfs/raw/main/examples/example1.xlsx),
-[example2](https://github.com/lbraglia/tlfs/raw/main/examples/example2.xlsx).
+Some TLF structures for examples:
+[example1](https://github.com/lbraglia/tlfs/raw/main/examples/example1.xlsx)
+(simpler),
+[example2](https://github.com/lbraglia/tlfs/raw/main/examples/example2.xlsx)
+(from real life).
 
+Once downloaded the `.docx`, table formatting in a unified way can be
+achieved via VisualBasic macros; one tutorial is
+[here](https://www.youtube.com/watch?v=kKtJx_VbLwk).
 
 
 ## What is this?
