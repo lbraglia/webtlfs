@@ -39,7 +39,7 @@ achieved via VisualBasic macros; one tutorial is
   Next
   End Sub
   ```
-  regarding `[Custom Table Style Name]`, look at the popup name
+  Regarding `[Custom Table Style Name]`, look at the popup name
   visualized once you select the style of your interest and insert
   it. eg `"Tabella semplice - 1"`
 - once saved, click on `Run` on `format_tables` from the Macro button
