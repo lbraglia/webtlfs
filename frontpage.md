@@ -1,6 +1,15 @@
 # webtlfs
 
-## Info
+## What is this?
+
+Basically it's [tlfs](https://pypi.org/project/tlfs/) (development
+repo [here](https://github.com/lbraglia/tlfs)), but repacked as an
+online streamlit service.
+
+The live app is [here](https://webtlfs.streamlit.app); the
+development repository is [here](https://github.com/lbraglia/webtlfs).
+
+## How to use it?
 
 In the box above you can upload your TLF structure (an `.xlsx`
 specifying the structure of desidered TLF shells) and then click on
@@ -35,14 +44,3 @@ achieved via VisualBasic macros; one tutorial is
   it. eg `"Tabella semplice - 1"`
 - once saved, click on `Run` on `format_tables` from the Macro button
   in Development tab.
-
-
-
-## What is this?
-
-Basically it's [tlfs](https://pypi.org/project/tlfs/) (development
-repo [here](https://github.com/lbraglia/tlfs)), but repacked as an
-online streamlit service.
-
-The live app is [here](https://webtlfs.streamlit.app); the
-development repository is [here](https://github.com/lbraglia/webtlfs).
