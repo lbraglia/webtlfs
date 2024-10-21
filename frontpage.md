@@ -14,25 +14,25 @@ Some TLF structures for examples:
 
 Once downloaded the `.docx`, table formatting in a unified way can be
 achieved via VisualBasic macros; one tutorial is
-[here](https://www.youtube.com/watch?v=kKtJx_VbLwk).
-
-Essentially:
+[here](https://www.youtube.com/watch?v=kKtJx_VbLwk). Essentially:
 - select `Development` tab;
 - select `Macro`;
 - enter a name for the formatting macro, say `format_tables` and click on `Create`
 - locate `Sub format_tables()` and edit as follows
-```visual basic
-Sub format_tables()
-'
-' format_tables Macro
-'
-Dim t As Table
-	For Each t In ActiveDocument.Tables
-	t.Style = "[Custom Table Style Name]" 
-Next
-End Sub
-```
-regarding `[Custom Table Style Name]`, look at the popup name visualized once you select the style of your interest and insert it. eg `"Tabella semplice - 1"`
+  ```basic
+  Sub format_tables()
+  '
+  ' format_tables Macro
+  '
+  Dim t As Table
+	  For Each t In ActiveDocument.Tables
+	  t.Style = "[Custom Table Style Name]" 
+  Next
+  End Sub
+  ```
+  regarding `[Custom Table Style Name]`, look at the popup name
+  visualized once you select the style of your interest and insert
+  it. eg `"Tabella semplice - 1"`
 - once saved, click on `Run` on `format_tables` from the Macro button
   in Development tab.
 
